@@ -19,7 +19,7 @@ app.use(express.static("public"));
 //mongoose.connect("mongodb://localhost:27017/todolistDB",{useNewUrlParser: true, useUnifiedTopology: true});
 
 //server
-mongoose.connect("mongodb+srv://admin-paula:Test123@cluster0.0nmpp.mongodb.net/todolistDB",{useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://old@test/todolistDB",{useNewUrlParser: true, useUnifiedTopology: true});
 
 
 
